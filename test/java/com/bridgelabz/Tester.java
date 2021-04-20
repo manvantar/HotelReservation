@@ -7,7 +7,7 @@ public class Tester {
     @Test
     void whenAddedHotel_ItShouldReturnTrue() {
         Reservation reservation=new Reservation();
-        Assertions.assertTrue(reservation.addHotel("Ashoka",3));
+        Assertions.assertTrue(reservation.addHotel("Ashoka",300));
 
     }
 

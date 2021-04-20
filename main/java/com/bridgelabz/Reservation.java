@@ -8,13 +8,13 @@ public class Reservation {
 
    /* Description: this method is used to add Hotel Details to the List of Hotels
    @param hotelName takes hotel'sname
-   @param rating takes hotel's ratings
+   @param rating takes hotel's rate
    @return boolean value true if added else false
    */
-    public boolean addHotel(String hotelName, double rating){
-        Hotel hotel=new Hotel(hotelName,rating);
+    public boolean addHotel(String hotelName, double rate){
+        Hotel hotel=new Hotel(hotelName,rate);
         hotelList.add(hotel);
-        System.out.println("no of ratings" +hotel.numberOfRatings);
+
         return !hotelList.isEmpty();
 
     }
